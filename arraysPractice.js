@@ -1,33 +1,46 @@
-//Once you complete a problem, open up Chrome and check the answer in the console.
+//Once you complete a problem, open up Chrome and check the answer in the console. DONE*******
 
 
 var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
   //Code Here
+function first(x) {
+    return x[0];
+}
+first(arr);
 
 
-//Next problem
+//Next problem DONE*******
 
 
 
 var arr = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
-
+function last(a) {
+    return a[2];
+}
+last(arr);
 
   //Code Here
 
 
-//Next Problem
+//Next Problem DONE*******
 
 
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
 
   //Code Here
+function looper() {
+    for (var i = 0; i < family.length; i++) {
+        alert(i);
+    }
+}
+looper(family);
 
 
-//Next problem
+//Next problem DONE*******
 
 
 
@@ -35,7 +48,12 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
 
   //Code Here
-
+function reversedLooper() {
+    for(var i < letters.length; i >= 0; i--) {
+        alert(letters[i]);
+    }
+}
+reversedLooper(letters);
 
 //Next Problem
 
@@ -44,6 +62,14 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 //Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
 
   //Code Here
+function evenFinder() {
+    for (var i = 0; i < nums.length; i++) {
+        if(nums[i] % 2 === 0) {
+            return nums[i];
+        }
+    }
+}
+evenFinder(nums);
 
 
 //Next problem
