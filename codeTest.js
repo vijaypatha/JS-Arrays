@@ -29,7 +29,7 @@
 
 //Problem 4
 
-var letters = ['A', 'B', 'C', 'D', 'E'];
+//var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
 
 //Code Here
@@ -42,42 +42,46 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //problem 5
 
-var nums = [1,2,3,6,22,98,45,23,22,12];
-//Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
+//var nums = [1,2,3,6,22,98,45,23,22,12];
+////Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
+//
+////Code Here
+//function evenFinder() {
+//    for (var i = 0; i < nums.length; i++) {
+//        if(nums[i] % 2 === 0) {
+//            console.log(nums[i]);
+//        }
+//    }
+//}
+//evenFinder(nums);
 
-//Code Here
-function evenFinder() {
-    for (var i = 0; i < nums.length; i++) {
-        if(nums[i] % 2 === 0) {
-            console.log(nums[i]);
-        }
-    }
+//problem 6  ******check with mentor**********
+
+//var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
+//function divider(){
+//    var evens = [];
+//    var odds = [];
+//    for (var i = 0; i < numbersArray.length; i++) {
+//        if(numbersArray[i] % 2 === 0) {
+//            evens = numbersArray[i];
+//            console.log(evens);
+//         //evens  = evens.push(numbersArray[i]);
+//        }
+//        else {
+//            //   odds = odds.push(numbersArray[i]);
+//            odds = numbersArray[i];
+//            console.log("Odds are: "+odds);
+//        }
+//    }
+//}
+//divider(numbersArray);
+
+//Problem 7
+
+
+//Problem 8
+
+var str = "this is my sentence";
+for (var i = str.length - 1; i >= 0; i--) {
+    console.log(str[i]);
 }
-evenFinder(nums);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
